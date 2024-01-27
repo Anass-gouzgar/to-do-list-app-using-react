@@ -13,6 +13,8 @@ function ToDoList(){
         if(newTask.trim() !== ""){
             setTasks(t => [...t, newTask]);
             setNewTask("");
+        }else{
+            alert("Please enter a task.");
         }
     }
 
